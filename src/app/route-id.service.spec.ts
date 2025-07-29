@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { RouteIdService } from './route-id.service';
+import { RouteIdService } from './services/router-id/route-id.service';
 
 describe('RouteIdService', () => {
   let service: RouteIdService;

@@ -22,6 +22,6 @@ export class RouteIDComponent {
     console.log(this.user);
   }
   clickk(id:number) {
-    this.router.navigate([`detail/${id}`])
+    this.router.navigate([`user/${id}`])
   }
 }

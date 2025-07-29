@@ -5,8 +5,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { guardGuard } from './guards/guard.guard';
 
 const routes: Routes = [
-  { path: "", component: RouteIDComponent },
-  { path: "detail/:id", component: ProductDetailComponent ,canActivate:[guardGuard]}
+  { path: "user", component: RouteIDComponent },
+  { path: "user/:id", component: ProductDetailComponent ,canActivate:[guardGuard]}
 ];
 
 @NgModule({
